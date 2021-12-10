@@ -1,0 +1,31 @@
+h3{
+    font-size: 25px;
+
+
+}
+.btn-warning{
+    background: linear-gradient(to right, #fffad5, #ff9a2c );
+}
+
+.btn-warning:hover{
+
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+canvas{
+
+    animation-name: newstuff;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes newstuff {
+    
+    from{box-shadow: 1px 1px 45px red; left:0px; top:0px;}
+    25%{box-shadow: 1px 1px 45px blue;right: 980px; top:0px;}
+    50%{box-shadow: 1px 1px 45px lightsalmon;left:980px; top:190px;}
+    75%{box-shadow: 1px 1px 45px orangered;left:0px; top:190px;}
+    to{box-shadow: 1px 1px 45px yellow;left:0px; top:0px;}
+
+   }
